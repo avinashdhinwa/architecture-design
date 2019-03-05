@@ -69,25 +69,31 @@ Easily adding functionality without modifying much of existing code.
 
 1. obj
 
+```
 do(Object a){
     a.fun()
 }
+```
 
-1. interface
+2. interface
 
+```
 do(Interface i){
     i.fun()
 }
+```
 
-1. lambda
+3. lambda
 
+```
 do(func fun){
     fun()
 }
+```
 
-1. duck typing (javascript, python)
+4. duck typing (javascript, python)
 
-1. reflection
+5. reflection
 
 2/4 vs 3 are style choices (If we have functional interfaces only i.e. one function per interface)
 2 vs 4 are lang choices
@@ -102,3 +108,11 @@ Functional way of implementing state (of a function) similar to data members for
 
 1. Higher order functions
 1. Closures
+
+
+
+**Writing good code**
+
+1. Reduce cyclomatic complexity
+2. Reduce Size
+3. Reduce Coupling
