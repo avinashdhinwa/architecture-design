@@ -1,31 +1,31 @@
 ```
-Terms and Keywords to read
+**Terms and Keywords to read**
 
-Free Lunch (Law of diminishing returns)
-```
-
-```
-Tuning (post mortem) vs Engineering (pre thoughts)
-Ethical Hacking (Pentesting) vs Threat Modelling
-Performance Tuning vs Performance Engineering
+*Free Lunch (Law of diminishing returns)
 ```
 
 ```
-Quality Roadmap
+**Tuning (post mortem) vs Engineering (pre thoughts)**
+*Ethical Hacking (Pentesting) vs Threat Modelling
+*Performance Tuning vs Performance Engineering
+```
+
+```
+**Quality Roadmap**
 
 	Quality					|				Tactic
 1. Availability					|	Re-try, Watchdog
-2. Scalability					|	Stateless, Threads, Manage Queue
+1. Scalability					|	Stateless, Threads, Manage Queue
 	Volume (I/O, data, logic)		|	
-3. Security					|
-4. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache,
+1. Security					|
+1. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache,
 						|	Object Pooling, Lazy Loading
-5. Testability					|	
-6. Maintainability				|	Extensibility, Readability, Health monitoring, logging
-7. Reliability	(Trust)				|	ACID, Audit
-8. Robustness	(Rugged)			|	Input Validation, Handling bad flows first
-9. Usability					|
-10. Interoperability				|
+1. Testability					|	
+1. Maintainability				|	Extensibility, Readability, Health monitoring, logging
+1. Reliability	(Trust)				|	ACID, Audit
+1. Robustness	(Rugged)			|	Input Validation, Handling bad flows first
+1. Usability					|
+1. Interoperability				|
 ```
 
 ```
