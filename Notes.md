@@ -18,7 +18,8 @@ Quality Roadmap
 2. Scalability					|	Stateless, Threads, Manage Queue
 	Volume (I/O, data, logic)		|	
 3. Security					|
-4. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache, Object Pooling, Lazy Loading
+4. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache,
+						|	Object Pooling, Lazy Loading
 5. Testability					|	
 6. Maintainability				|	Extensibility, Readability, Health monitoring, logging
 7. Reliability	(Trust)				|	ACID, Audit
@@ -60,5 +61,6 @@ Easily adding functionality without modifying much of existing code.
 Creating cleaner code
 
 1. Remove flags --> Create interface for each flag
-			|--> create as many implementations for each interface class as we have number of distict values for the flag
+			|--> create as many implementations for each interface class as we have number of distict
+				values for the flag
 ```
