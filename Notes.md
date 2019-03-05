@@ -94,3 +94,10 @@ do(func fun){
 2 vs 4 are lang choices
 
 ```
+
+```
+Closure
+
+Functional way of implementing state (of a function) similar to data members for classes in OOPs
+
+```
