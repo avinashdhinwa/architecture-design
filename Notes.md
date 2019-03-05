@@ -55,3 +55,10 @@ _______________				             __________
 Design deals with code quality.
 Easily adding functionality without modifying much of existing code.
 ```
+
+```
+Creating cleaner code
+
+1. Remove flags --> Create interface for each flag
+			|--> create as many implementations for each interface class as we have number of distict values for the flag
+```
