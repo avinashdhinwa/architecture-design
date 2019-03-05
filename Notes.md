@@ -62,10 +62,12 @@ Easily adding functionality without modifying much of existing code.
 ---
 
 **Creating cleaner code**
+Removing flags/enums and hence conditions by replacing them with interfaces
 
-1. Remove flags --> Create interface for each flag
-			|--> create as many implementations for each interface class as we have number of distict
-				values for the flag
+1. Remove flags/enums
+	- Create interface for each flag
+		- Each interface has as many functions as the functions in which it is used
+			- Each interface has as many implementations as the number of values possible for the flag
 
 ---
 
