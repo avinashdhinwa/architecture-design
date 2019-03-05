@@ -29,6 +29,7 @@
 ---
 
 **What is Architecture?**
+
 Software architecture is a way of doing software engineering
 
 ```
