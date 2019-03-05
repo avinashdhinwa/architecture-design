@@ -3,11 +3,13 @@
 
 - Free Lunch (Law of diminishing returns)
 
+---
 
 **Tuning (post mortem) vs Engineering (pre thoughts)**
 - Ethical Hacking (Pentesting) vs Threat Modelling
 - Performance Tuning vs Performance Engineering
 
+---
 
 **Quality Roadmap**
 
@@ -24,7 +26,7 @@
 |9.| Usability | |
 |10.| Interoperability | |
 
-
+---
 
 **What is Architecture?**
 Software architecture is a way of doing software engineering
@@ -42,6 +44,7 @@ Anti-architecture pattern
 - Alice in wonderland —> nothing matters, no quality requirements, just trying to build whatever is best
 - Google/Netflix arch. —> reference architectures, without knowing requirements copying other “good” architectures
 
+---
 
 **What is Design?**
 
@@ -56,6 +59,7 @@ _______________				             __________
 Design deals with code quality.
 Easily adding functionality without modifying much of existing code.
 
+---
 
 **Creating cleaner code**
 
@@ -63,6 +67,7 @@ Easily adding functionality without modifying much of existing code.
 			|--> create as many implementations for each interface class as we have number of distict
 				values for the flag
 
+---
 
 **Ways of calling a method**
 
@@ -97,18 +102,20 @@ do(func fun){
 2/4 vs 3 are style choices (If we have functional interfaces only i.e. one function per interface)
 2 vs 4 are lang choices
 
+---
 
 **Closure**
 
 Functional way of implementing state (of a function) similar to data members for classes in OOPs
 
+---
 
 **Functional Programming**
 
 1. Higher order functions
 1. Closures
 
-
+---
 
 **Writing good code**
 
@@ -127,3 +134,5 @@ Functional way of implementing state (of a function) similar to data members for
 | --- | --- | --- |
 | DI | tick-not | tick |
 | Factory | tick-not | tick |
+
+---
