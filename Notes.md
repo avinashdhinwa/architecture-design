@@ -101,3 +101,12 @@ Closure
 Functional way of implementing state (of a function) similar to data members for classes in OOPs
 
 ```
+
+```
+Functional Programming
+
+1. Higher order functions
+2. Closures
+
+
+```
