@@ -1,90 +1,95 @@
-```
-Terms and Keywords to read
 
-Free Lunch (Law of diminishing returns)
-```
+**Terms and Keywords to read**
 
-```
-Tuning (post mortem) vs Engineering (pre thoughts)
-Ethical Hacking (Pentesting) vs Threat Modelling
-Performance Tuning vs Performance Engineering
-```
+- Free Lunch (Law of diminishing returns)
 
-```
-Quality Roadmap
 
+**Tuning (post mortem) vs Engineering (pre thoughts)**
+- Ethical Hacking (Pentesting) vs Threat Modelling
+- Performance Tuning vs Performance Engineering
+
+
+**Quality Roadmap**
+```
 	Quality					|				Tactic
 1. Availability					|	Re-try, Watchdog
-2. Scalability					|	Stateless, Threads, Manage Queue
+1. Scalability					|	Stateless, Threads, Manage Queue
 	Volume (I/O, data, logic)		|	
-3. Security					|
-4. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache,
+1. Security					|
+1. Performance					|	Chunky network calls, Compression/minify, Concurrency, Cache, Cache,
 						|	Object Pooling, Lazy Loading
-5. Testability					|	
-6. Maintainability				|	Extensibility, Readability, Health monitoring, logging
-7. Reliability	(Trust)				|	ACID, Audit
-8. Robustness	(Rugged)			|	Input Validation, Handling bad flows first
-9. Usability					|
-10. Interoperability				|
+1. Testability					|	
+1. Maintainability				|	Extensibility, Readability, Health monitoring, logging
+1. Reliability	(Trust)				|	ACID, Audit
+1. Robustness	(Rugged)			|	Input Validation, Handling bad flows first
+1. Usability					|
+1. Interoperability				|
 ```
 
-```
-What is Architecture?
+
+**What is Architecture?**
 Software architecture is a way of doing software engineering
 
+```
 ___________				     ___________
 | Quality |   collect	 O	choose	    | Tactics   |
 | Req.    |  ————————> / | \ —————————-->   | 	        |
 ————------- 		 |		     —————-------
 			/ \    		   forms Architecture
+```
 Architecture deals with system quality
 
 Anti-architecture pattern
 - Alice in wonderland —> nothing matters, no quality requirements, just trying to build whatever is best
 - Google/Netflix arch. —> reference architectures, without knowing requirements copying other “good” architectures
-```
+
+
+**What is Design?**
 
 ```
-What is Design?
-
 _______________				             __________
 | Requirements |  understands	  O	creates	    | skeleton |  (may use procedural, oops, functional)
 | 	       |  —----———————> / | \ ————————--—>  | for code |
 ————------------		  |		     —————-----
 		                 / \		    forms design
+```
 
 Design deals with code quality.
 Easily adding functionality without modifying much of existing code.
-```
 
-```
-Creating cleaner code
+
+**Creating cleaner code**
 
 1. Remove flags --> Create interface for each flag
 			|--> create as many implementations for each interface class as we have number of distict
 				values for the flag
-```
 
-```
-Ways of calling a method
+
+**Ways of calling a method**
 
 1. obj
 
+```
 do(Object a){
     a.fun()
 }
+```
 
 2. interface
 
+```
 do(Interface i){
     i.fun()
 }
+```
 
 3. lambda
 
+```
 do(func fun){
     fun()
 }
+```
 
 4. duck typing (javascript, python)
 
@@ -93,20 +98,21 @@ do(func fun){
 2/4 vs 3 are style choices (If we have functional interfaces only i.e. one function per interface)
 2 vs 4 are lang choices
 
-```
 
-```
-Closure
+**Closure**
 
 Functional way of implementing state (of a function) similar to data members for classes in OOPs
 
-```
 
-```
-Functional Programming
+**Functional Programming**
 
 1. Higher order functions
-2. Closures
+1. Closures
 
 
-```
+
+**Writing good code**
+
+1. Reduce cyclomatic complexity
+2. Reduce Size
+3. Reduce Coupling
