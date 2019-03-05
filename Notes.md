@@ -64,3 +64,33 @@ Creating cleaner code
 			|--> create as many implementations for each interface class as we have number of distict
 				values for the flag
 ```
+
+```
+Ways of calling a method
+
+1. obj
+
+do(Object a){
+    a.fun()
+}
+
+2. interface
+
+do(Interface i){
+    i.fun()
+}
+
+3. lambda
+
+do(func fun){
+    fun()
+}
+
+4. duck typing (javascript, python)
+
+5. reflection
+
+2/4 vs 3 are style choices (If we have functional interfaces only i.e. one function per interface)
+2 vs 4 are lang choices
+
+```
