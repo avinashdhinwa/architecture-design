@@ -126,16 +126,16 @@ Functional way of implementing state (of a function) similar to data members for
 2. Reduce Size
 3. Reduce Coupling
 
-| Coupling | Method Call | Instantiation |
-| --- |--- |--- |
-| interface | tick | tick-not |
-| lambda | tick | tick-not |
-| duck | tick | tick-not |
-| --- | --- | --- |
-| Reflection (last weapon) | tick | tick-not |
-| Wrapper (last weapon) | tick | tick-not |
-| --- | --- | --- |
-| DI | tick-not | tick |
-| Factory | tick-not | tick |
+| Coupling | Method Call | Instantiation | Comments |
+| --- |--- |--- | --- |
+| interface | &#9745; | &#9746; | |
+| lambda | &#9745; | &#9746; | |
+| duck | &#9745; | &#9746; | |
+| --- | --- | --- | |
+| Reflection (last weapon) | &#9745; | &#9746; | |
+| Wrapper (last weapon) | &#9745; | &#9746; | |
+| --- | --- | --- | |
+| DI | &#9746; | &#9745; | (Preferred than Factory) |
+| Factory | &#9746; | &#9745; | |
 
 ---
