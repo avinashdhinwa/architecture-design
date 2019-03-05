@@ -127,7 +127,7 @@ Functional way of implementing state (of a function) similar to data members for
 3. Reduce Coupling
 
 | Coupling | Method Call | Instantiation | Comments |
-| --- |--- |--- | --- |
+| --- |:---:|:---:| --- |
 | interface | &#9745; | &#9746; | |
 | lambda | &#9745; | &#9746; | |
 | duck | &#9745; | &#9746; | |
