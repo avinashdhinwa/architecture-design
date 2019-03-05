@@ -1,7 +1,7 @@
-```
+
 **Terms and Keywords to read**
 
-*Free Lunch (Law of diminishing returns)
+- Free Lunch (Law of diminishing returns)
 ```
 
 ```
@@ -29,14 +29,16 @@
 ```
 
 ```
-What is Architecture?
+**What is Architecture?**
 Software architecture is a way of doing software engineering
 
+```
 ___________				     ___________
 | Quality |   collect	 O	choose	    | Tactics   |
 | Req.    |  ————————> / | \ —————————-->   | 	        |
 ————------- 		 |		     —————-------
 			/ \    		   forms Architecture
+```
 Architecture deals with system quality
 
 Anti-architecture pattern
