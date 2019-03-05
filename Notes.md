@@ -5,8 +5,8 @@
 
 
 **Tuning (post mortem) vs Engineering (pre thoughts)**
-*Ethical Hacking (Pentesting) vs Threat Modelling
-*Performance Tuning vs Performance Engineering
+- Ethical Hacking (Pentesting) vs Threat Modelling
+- Performance Tuning vs Performance Engineering
 
 
 **Quality Roadmap**
@@ -101,4 +101,4 @@ Functional way of implementing state (of a function) similar to data members for
 **Functional Programming**
 
 1. Higher order functions
-2. Closures
+1. Closures
