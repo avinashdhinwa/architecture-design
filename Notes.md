@@ -116,3 +116,15 @@ Functional way of implementing state (of a function) similar to data members for
 1. Reduce cyclomatic complexity
 2. Reduce Size
 3. Reduce Coupling
+
+| Coupling | Method Call | Instantiation |
+| --- |--- |--- |
+| interface | tick | tick-not |
+| lambda | tick | tick-not |
+| duck | tick | tick-not |
+| --- | --- | --- |
+| Reflection (last weapon) | tick | tick-not |
+| Wrapper (last weapon) | tick | tick-not |
+| --- | --- | --- |
+| DI | tick-not | tick |
+| Factory | tick-not | tick |
