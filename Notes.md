@@ -210,3 +210,15 @@ Factory and DI are both used for instantiation.
 	- _high coupling lead to poor testability since it's harder (without using advanced methods or frameworks such as mockito or proxy classes) to mock methods which are highly coupled_
 
 ---
+
+**Reduce Cyclomatic Complexity**
+ - Remove Flags
+
+| Tech | Domain |
+| --- | --- |
+| interface | Specification pattern |
+| lambda | Rule Engine |
+| duck | |
+| delegated interface | |
+| objects | |
+| lookup | | 
