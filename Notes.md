@@ -128,11 +128,25 @@ Functional way of implementing state (of a function) similar to data members for
 
 ---
 
-**Writing good code - Basics of design**
+**Writing good code - Basics of design (following below methods is inherently followed by better design)**
 
 1. **Reduce cyclomatic complexity**
 1. **Reduce Coupling**
 1. Reduce Size
+
+**Reduce Cyclomatic Complexity**
+ - Remove Flags
+
+| Tech (== or !=) | Domain |
+| --- | --- |
+| interface | Specification pattern |
+| lambda | Rule Engine |
+| duck | |
+| delegated interface | |
+| objects | |
+| lookup | | 
+
+**Reduce Coupling**
 
 | Coupling | Method Call | Instantiation | Comments |
 | --- |:---:|:---:| --- |
@@ -211,14 +225,4 @@ Factory and DI are both used for instantiation.
 
 ---
 
-**Reduce Cyclomatic Complexity**
- - Remove Flags
 
-| Tech (== or !=) | Domain |
-| --- | --- |
-| interface | Specification pattern |
-| lambda | Rule Engine |
-| duck | |
-| delegated interface | |
-| objects | |
-| lookup | | 
