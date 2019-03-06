@@ -202,5 +202,6 @@ Factory and DI are both used for instantiation.
 ---
 
 - _We create classes when there is behavioural change else if there is only attribute change, we create instances._
+- _While designing classes, do usage first design i.e. how would a class be used._
 
 ---
