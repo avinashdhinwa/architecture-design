@@ -139,7 +139,7 @@ Functional way of implementing state (of a function) similar to data members for
 | interface | &#9745; | &#9746; | |
 | lambda | &#9745; | &#9746; | |
 | duck | &#9745; | &#9746; | |
-| --- | --- | --- | |
+| lookup | &#9745; | &#9746; | |
 | Reflection (last weapon) | &#9745; | &#9746; | |
 | Wrapper (last weapon) | &#9745; | &#9746; | |
 | --- | --- | --- | |
