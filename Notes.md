@@ -206,7 +206,7 @@ Factory and DI are both used for instantiation.
 
 - _We create classes when there is behavioural change else if there is only attribute change, we create instances._
 - _While designing classes, do usage first design i.e. how would a class be used._
-- _Static methods lead to high coupling since the class using the method should know about the implementing class. (Anti Abstraction)
-	- high coupling lead to poor testability since it's harder (without using advanced methods or frameworks such as mockito or proxy classes) to mock methods which are highly coupled_
+- _Static methods lead to high coupling since the class using the method should know about the implementing class. (Anti Abstraction)_
+	- _high coupling lead to poor testability since it's harder (without using advanced methods or frameworks such as mockito or proxy classes) to mock methods which are highly coupled_
 
 ---
