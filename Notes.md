@@ -198,3 +198,9 @@ Factory and DI are both used for instantiation.
 	3. Multi Dispatch
 	
 - Java, python and many other languages don't have dual, multi dispatches. In that case we can use lookups/Maps (but it should be the last weapon).
+
+---
+
+- We create classes when there is behavioural change else if there is only attribute change, we create instances.
+
+---
