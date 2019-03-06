@@ -190,9 +190,9 @@ Factory and DI are both used for instantiation.
 	2. Dual Dispatch
 	```		      _____ f1
 			     /
-		obj.fun() --|------ f2 
+		(obj1, obj2).fun() --|------ f2 
 			     \_____ f3
 	```
 	3. Multi Dispatch
 	
-Java, python and many other languages don't have dual, multi dispatches. In that case we can use lookups/Maps (but it should be the last weapon).
+- Java, python and many other languages don't have dual, multi dispatches. In that case we can use lookups/Maps (but it should be the last weapon).
