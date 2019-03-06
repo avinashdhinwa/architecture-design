@@ -132,6 +132,9 @@ Functional way of implementing state (of a function) similar to data members for
 
 1. **Reduce cyclomatic complexity**
 1. **Reduce Coupling**
+	- Prefer SRP over loose coupling
+	- Parents should not know childern
+	- Domain shouldn't know boundary but other ways is possible
 1. Always prefer composition over inheritence
 1. Reduce Size
 
