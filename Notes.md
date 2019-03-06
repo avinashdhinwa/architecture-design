@@ -132,6 +132,7 @@ Functional way of implementing state (of a function) similar to data members for
 
 1. **Reduce cyclomatic complexity**
 1. **Reduce Coupling**
+1. Always prefer composition over inheritence
 1. Reduce Size
 
 **Reduce Cyclomatic Complexity**
