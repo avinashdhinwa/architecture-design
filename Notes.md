@@ -190,10 +190,10 @@ Factory and DI are both used for instantiation.
 	```
 	2. Dual Dispatch
 	```
-			      	      _____ f1
-			    	     /
+			      	       _____ f1
+			    	      /
 		(obj1, obj2).fun() --|------ f2 
-			     	     \_____ f3
+			     	      \_____ f3
 	```
 	3. Multi Dispatch
 	
