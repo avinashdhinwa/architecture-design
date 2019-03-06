@@ -214,7 +214,7 @@ Factory and DI are both used for instantiation.
 **Reduce Cyclomatic Complexity**
  - Remove Flags
 
-| Tech | Domain |
+| Tech (== or !=) | Domain |
 | --- | --- |
 | interface | Specification pattern |
 | lambda | Rule Engine |
