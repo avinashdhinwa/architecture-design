@@ -1,7 +1,11 @@
 
 **Terms and Keywords to read**
 
-- Free Lunch (Law of diminishing returns)
+- Free Lunch
+- Law of diminishing returns
+- V-Table (of functions)
+- loopback (JS)
+- Dispatch (single, dual, multi dispatch)
 
 ---
 
@@ -171,3 +175,24 @@ Factory and DI are both used for instantiation.
 1. DI is a way of creating an instance by injecting another instance into it (can be done in constructor if always required for a valid state or in setters for lazy loading).
 
 ---
+
+**Polymorphism**
+
+1. Static or compile time (Over-loading, dynamic languages like ruby, js, python, etc. don't have it) --> works with references
+	- Overloading is not good for a family/hierarchy of types as it may need downcasting (anti-abstraction). But it can be used for different data types, which don't fall into hierarchy e.g. int, float, string
+1. Dynamic or run-time (Over-riding)
+	1. Single Dispatch
+	```		      _____ f1
+			     /
+		obj.fun() --|------ f2 
+			     \_____ f3
+	```
+	2. Dual Dispatch
+	```		      _____ f1
+			     /
+		obj.fun() --|------ f2 
+			     \_____ f3
+	```
+	3. Multi Dispatch
+	
+Java, python and many other languages don't have dual, multi dispatches. In that case we can use lookups/Maps (but it should be the last weapon).
