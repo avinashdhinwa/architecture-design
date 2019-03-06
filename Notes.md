@@ -201,6 +201,6 @@ Factory and DI are both used for instantiation.
 
 ---
 
-- We create classes when there is behavioural change else if there is only attribute change, we create instances.
+- _We create classes when there is behavioural change else if there is only attribute change, we create instances._
 
 ---
