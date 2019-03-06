@@ -139,3 +139,32 @@ Functional way of implementing state (of a function) similar to data members for
 | Factory | &#9746; | &#9745; | |
 
 ---
+
+**Factory vs DI**
+
+**Factory**
+
+```
+IXFactory factory = new IXFactory();
+IX obj = factory.get();
+obj.f1();
+obj.f2();
+```
+
+**DI (with factory)**
+
+DI could be used with or without factory.
+
+```
+IXFactory factory = new IXFactory();
+IX obj = factory.get();
+IY obj2 = new Y(obj);
+obj2.g1();
+obj2.g2();
+```
+
+Factory and DI are both used for instantiation.
+1. Factory can return instances (based on parameters to factory or based on some config). Client can get the instance into an interface variable and use it without knowing the actual implementation of the interface.
+1. DI is a way of creating an instance by injecting another instance into it (can be done in constructor if always required for a valid state or in setters for lazy loading).
+
+---
