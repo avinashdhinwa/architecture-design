@@ -182,16 +182,18 @@ Factory and DI are both used for instantiation.
 	- Overloading is not good for a family/hierarchy of types as it may need downcasting (anti-abstraction). But it can be used for different data types, which don't fall into hierarchy e.g. int, float, string
 1. Dynamic or run-time (Over-riding)
 	1. Single Dispatch
-	```		      _____ f1
+	```
+			      _____ f1
 			     /
 		obj.fun() --|------ f2 
 			     \_____ f3
 	```
 	2. Dual Dispatch
-	```		      _____ f1
-			     /
+	```
+			      	      _____ f1
+			    	     /
 		(obj1, obj2).fun() --|------ f2 
-			     \_____ f3
+			     	     \_____ f3
 	```
 	3. Multi Dispatch
 	
