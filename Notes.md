@@ -188,6 +188,7 @@ obj2.g2();
 
 Factory and DI are both used for instantiation.
 1. Factory can return instances (based on parameters to factory or based on some config). Client can get the instance into an interface variable and use it without knowing the actual implementation of the interface.
+	- Factory shouldn't be considered as a carpet for hiding the dirt. (Eg. the account and the dialog)
 1. DI is a way of creating an instance by injecting another instance into it (can be done in constructor if always required for a valid state or in setters for lazy loading).
 
 ---
