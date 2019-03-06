@@ -67,6 +67,7 @@ Easily adding functionality without modifying much of existing code.
 ---
 
 **Creating cleaner code**
+
 Removing flags/enums (technical flags and not domain flags) and hence conditions by replacing them with interfaces
 
 - Technical flags are predominantly == and !=
