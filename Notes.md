@@ -123,11 +123,11 @@ Functional way of implementing state (of a function) similar to data members for
 
 ---
 
-**Writing good code**
+**Writing good code - Basics of design**
 
-1. Reduce cyclomatic complexity
-2. Reduce Size
-3. Reduce Coupling
+1. **Reduce cyclomatic complexity**
+1. **Reduce Coupling**
+1. Reduce Size
 
 | Coupling | Method Call | Instantiation | Comments |
 | --- |:---:|:---:| --- |
